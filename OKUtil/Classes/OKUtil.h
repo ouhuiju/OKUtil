@@ -10,4 +10,7 @@
 
 @interface OKUtil : NSObject
 
++ (OKUtil *)shareInstance;
+- (void)test;
+
 @end
