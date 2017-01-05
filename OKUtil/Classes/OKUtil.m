@@ -22,4 +22,8 @@
     NSLog(@"test");
 }
 
+- (NSString *)hello:(NSString *)yourname {
+    return [NSString stringWithFormat:@"hello, %@", yourname];
+}
+
 @end

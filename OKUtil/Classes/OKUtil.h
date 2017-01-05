@@ -12,5 +12,6 @@
 
 + (OKUtil *)shareInstance;
 - (void)test;
+- (NSString *)hello:(NSString *)yourname;
 
 @end

@@ -19,6 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [[OKUtil shareInstance] test];
+    
+    NSLog(@"%@", [[OKUtil shareInstance] hello:@"Okar"]);
 }
 
 - (void)didReceiveMemoryWarning
